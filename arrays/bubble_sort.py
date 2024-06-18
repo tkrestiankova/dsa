@@ -1,6 +1,5 @@
 """
 Algorithm: Bubble sort
-Time complexity: O(n^2)
 
 Basic version
 1. Go through the array, one value at a time
@@ -11,6 +10,14 @@ Basic version
 Improved version
 If the algorithm goes through the array one time without swapping any values, 
 the array must be finished sorted, and we can stop the algorithm
+
+Time complexity: O(n^2)
+- This algorithm loops through every value in the array, comparing it to the value next to it. 
+So for an array of n values, there must be n such comparisons in one loop.
+- And after one loop, the array is looped through again and again n times. This means there are 
+n * n comparisons done in total, so the time complexity for Bubble Sort is O(n^2)
+
+Source: https://www.w3schools.com/dsa/dsa_algo_bubblesort.php
 """
 
 # 1. BASIC VERSION
